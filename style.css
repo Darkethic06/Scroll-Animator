@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+
+}
+.box{
+    border: 2px solid red;
+    margin-top: 5rem;
+    padding: 1rem;
+    border-radius: 15px ;
+}
+.fromRight{
+    transform: translateX(200%);
+    transition: transform 2s ease;
+
+}
+.fromLeft{
+    transform: translateX(-200%);
+    transition: transform 2s ease;
+
+}
+
+.show{
+    transform: translate(0);
+}
+
+
+
+  
